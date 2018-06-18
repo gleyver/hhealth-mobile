@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background_mobile">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar Consulta"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_borda_bodao"
+        android:id="@+id/btn_agendar_consulta_escolha_opcao"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Consultas marcadas"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_borda_bodao"
+        android:id="@+id/btn_ver_consultas_marcadas_escolha_opcao"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver resultado de exames"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_borda_bodao"
+        android:id="@+id/btn_resultado_de_exames_escolha_opcao"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Área do paciente"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_borda_bodao"
+        android:id="@+id/btn_area_paciente"
+        />
+
+</LinearLayout>

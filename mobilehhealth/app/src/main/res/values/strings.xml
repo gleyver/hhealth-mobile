@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">hhealth</string>
+    <string name="action_settings">Logout</string>
+
+
+
+
+    <string name="API_URL">10.0.2.2:5001</string>
+    <string name="URL_LOGIN">http://www.hospitalhhealth.com.br/API-Hhealth/login_mobile.php</string>
+    <!--<string name="URL_LOGIN">http://www.hospitalhhealth.com.br/API-Hhealth/login_mobile.php</string>-->
+    <string name="URL_AGENDAMENTO_CONSULTA">http://www.hospitalhhealth.com.br/API-Hhealth/agendamento_consulta.php</string>
+    <string name="URL_RESULTADO_EXAMES">http://www.hospitalhhealth.com.br/API-Hhealth/resultado_exames.php?id_paciente=</string>
+    <!--<string name="URL_AGENDAMENTO_CONSULTA">>http://10.0.2.2/API-Hhealth/agendamento_consulta.php?</string>-->
+    <!--<string name="URL_VISUALIZAR_CONSULTAS">http://www.hospitalhhealth.com.br/API-Hhealth/visualizar_consultas_marcadas.php?id_paciente=8</string>-->
+    <string name="URL_VISUALIZAR_CONSULTAS">http://www.hospitalhhealth.com.br/API-Hhealth/visualizar_consultas_marcadas.php?id_paciente=</string>
+    <string name="url_visualizar_paciente">http://www.hospitalhhealth.com.br/API-Hhealth/visualizar_paciente.php?id_paciente=</string>
+
+    <string name="URL_LISTAR_UNIDADES">http://www.hospitalhhealth.com.br/API-Hhealth/listar_unidades.php</string>
+    <string name="URL_LISTAR_ESPECIALIDADES">http://www.hospitalhhealth.com.br/API-Hhealth/listar_especialidades.php</string>
+    <string name="URL_LISTAR_MEDICOS">http://www.hospitalhhealth.com.br/API-Hhealth/listar_medicos.php</string>
+    <string name="URL_VISUALIZAR_CONSULTA_ESPECIFICA">http://www.hospitalhhealth.com.br/API-Hhealth/visualizar_consulta_especifica.php?id_agendamento_consulta=8</string>
+</resources>

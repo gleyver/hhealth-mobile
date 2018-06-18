@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#660000</color>
+    <color name="colorPrimaryDark">#660000</color>
+    <color name="colorAccent">#FFF</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="vinho">#660000</color>
+    <color name="red">#FF0000</color>
+    <color name="firebrick">#B22222</color>
+    <color name="cinzaEscuro">#708090</color>
+    <color name="azulClaro">#E1F5FE</color>
+    <color name="vermelhoBonito">#C62828</color>
+    <color name="aliceblue">#F0F8FF</color>
+</resources>

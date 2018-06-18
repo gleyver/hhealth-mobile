@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.mobilehhealth.app.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background_mobile">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/logo_hhealth"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></View>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_usuario"
+        android:textColor="@color/white"
+        android:hint="usuario"
+        />
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/txt_usuario"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--&gt;-->
+
+        <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/autoCompleteTextViewTo"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="CPF"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="46026502874"-->
+            <!--/>-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_senha"
+        android:hint="senha"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+
+        />
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/txt_senha"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--&gt;-->
+
+        <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/autoCompleteTextView"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="SENHA"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:textSize="20dp"-->
+            <!--android:inputType="text"-->
+            <!--android:text="123"-->
+            <!--/>-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Entrar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_borda_bodao"
+        android:id="@+id/btn_entrar"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_resultado"
+        />
+
+
+
+</LinearLayout>
